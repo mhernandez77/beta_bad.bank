@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- bootstrap css -->
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- ------------------ NAVBAR ------------------ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <a class="nav-item nav-link" id="signin_link" onclick="loadPage('signin.html')" href="#"
+                    >Sign In</a
+                    >
+                    <a
+                            class="nav-item nav-link"
+                            id="mission_link"
+                            onclick="loadPage('mission.html')"
+                            href="#"
+                    >Mission</a
+                    >
+                    <a class="nav-item nav-link" id="about_link" onclick="loadPage('about.html')" href="#"
+                    >About</a
+                    >
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 20px">
+        <div id="content"></div>
+    </div>
+</head>
+<body>
+
+</body>
+</html>
